@@ -1,7 +1,7 @@
-//JavaScript Document app6
+//JavaScript Document
 
 $(document).ready(function (e) {
-	document.addEventListener("deviceready", onDeviceReady, false);
+	document .addEventListener("deviceready", onDeviceReady, false);
 		
 });
 
@@ -22,8 +22,8 @@ $(document).ready(function (e) {
 		
 		function onSuccess(position){
 			
-			alert('Latitude: '	 + position.coords.latitude 	+ '\n' +
-			'Longitud: '	+ position.coords.longitude		+ '\n');
+			alert('Latitude:'	 + position.coords.latitude 	+ '\n' +
+			'Longitude: '	+ position.coords.longitude		+ '\n');
 		};
 		
 		function onError(error) {
