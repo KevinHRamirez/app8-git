@@ -12,7 +12,7 @@ if (navigator.geolocation){
 	navigator.geolocation.getCurrentPosition(mostrarUbicacion);
 } else {alert("¡Error! Este navegador no soporta la Geolocalizacion.");}
 function refrescarUbicacion(){
-	navigator.geoloaction.watchPosition(mostrarUbicacion);}
+	navigator.geolocation.watchPosition(mostrarUbicacion);}
 	</script>
     
     
@@ -35,7 +35,7 @@ function refrescarUbicacion(){
 			mapholder.style.width='750px';
 			var myOptions={
 				center:latlon,zoom:15,
-				mapTypeld:google.maps.MapTypeld.ROADMAP,
+				mapTypeId:google.maps.MapTypeId.ROADMAP,
 				mapTypeControl:false,
 				navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
 			};
