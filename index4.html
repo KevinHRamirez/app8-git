@@ -8,7 +8,7 @@
 <!--Se determina la localizacion-->
 <div id='ubicacion'></div>
 <script type="text/javascript">
-if (navigator.geolocalation){
+if (navigator.geolocation){
 	navigator.geolocation.getCurrentPosition(mostrarUbicacion);
 } else {alert("¡Error! Este navegador no soporta la Geolocalizacion.");}
 function refrescarUbicacion(){
